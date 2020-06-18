@@ -19,7 +19,7 @@ const store = createStore(reducers);
 function App() {
   return (
     <Provider store={store}>
-      <Router forceRefresh={false}>
+      <Router basename={process.env.PUBLIC_URL}>
         <Switch>
           <Route path="/authorization" exact>
             <Authorization />

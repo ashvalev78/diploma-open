@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/static/css/main.0947bca5.chunk.css",
-    "main.js": "/static/js/main.cd705e08.chunk.js",
-    "main.js.map": "/static/js/main.cd705e08.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.4b6f69c7.js",
-    "runtime-main.js.map": "/static/js/runtime-main.4b6f69c7.js.map",
-    "static/js/2.0ecc903f.chunk.js": "/static/js/2.0ecc903f.chunk.js",
-    "static/js/2.0ecc903f.chunk.js.map": "/static/js/2.0ecc903f.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.500f08fba168f8fd4dc1f5f046ac3824.js": "/precache-manifest.500f08fba168f8fd4dc1f5f046ac3824.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/main.0947bca5.chunk.css.map": "/static/css/main.0947bca5.chunk.css.map",
-    "static/js/2.0ecc903f.chunk.js.LICENSE.txt": "/static/js/2.0ecc903f.chunk.js.LICENSE.txt"
+    "main.css": "/diploma-open/build/static/css/main.0947bca5.chunk.css",
+    "main.js": "/diploma-open/build/static/js/main.a29b4bda.chunk.js",
+    "main.js.map": "/diploma-open/build/static/js/main.a29b4bda.chunk.js.map",
+    "runtime-main.js": "/diploma-open/build/static/js/runtime-main.24bb4066.js",
+    "runtime-main.js.map": "/diploma-open/build/static/js/runtime-main.24bb4066.js.map",
+    "static/js/2.242adc70.chunk.js": "/diploma-open/build/static/js/2.242adc70.chunk.js",
+    "static/js/2.242adc70.chunk.js.map": "/diploma-open/build/static/js/2.242adc70.chunk.js.map",
+    "index.html": "/diploma-open/build/index.html",
+    "precache-manifest.3bda2828d3f90da3681cae24ca67927d.js": "/diploma-open/build/precache-manifest.3bda2828d3f90da3681cae24ca67927d.js",
+    "service-worker.js": "/diploma-open/build/service-worker.js",
+    "static/css/main.0947bca5.chunk.css.map": "/diploma-open/build/static/css/main.0947bca5.chunk.css.map",
+    "static/js/2.242adc70.chunk.js.LICENSE.txt": "/diploma-open/build/static/js/2.242adc70.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.4b6f69c7.js",
-    "static/js/2.0ecc903f.chunk.js",
+    "static/js/runtime-main.24bb4066.js",
+    "static/js/2.242adc70.chunk.js",
     "static/css/main.0947bca5.chunk.css",
-    "static/js/main.cd705e08.chunk.js"
+    "static/js/main.a29b4bda.chunk.js"
   ]
 }

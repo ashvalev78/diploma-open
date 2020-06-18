@@ -2,6 +2,7 @@
   "name": "diploma",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://ashvalev78.github.io/diploma-open/build",
   "dependencies": {
     "@babel/core": "7.9.0",
     "@material-ui/core": "^4.9.14",
