@@ -588,7 +588,7 @@ export default connect(mapStateToProps)(({dispatch, store}) => {
         isVisible={isImgPopupVisible}
         alt="imgPopup"
       ></ImgPopup>
-      <Header></Header>
+      <Header name="Новый проект1"></Header>
       <BuilderContainer>
         <TopSidebar
           items={TOP_SIDEBAR_OPTIONS}

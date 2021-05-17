@@ -21,10 +21,10 @@ function App() {
     <Provider store={store}>
       <Router basename={process.env.PUBLIC_URL}>
         <Switch>
-          <Route path="/authorization" exact>
+          <Route path="/" exact>
             <Authorization />
           </Route>
-          <Route path="/" exact>
+          <Route path="/builder" exact>
             <Builder />
           </Route>
           <Route path="/profile" exact>

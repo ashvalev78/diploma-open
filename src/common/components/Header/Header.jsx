@@ -24,7 +24,7 @@ export default ({name, initials}) => {
   return (
     <Wrapper>
       {/* <ExitToAppIcon /> */}
-      <Name>{name || "Название проекта"}</Name>
+      <Name>{name || "Новый проект1"}</Name>
       {/* <Avatar>{initials || ""}</Avatar> */}
     </Wrapper>
   );

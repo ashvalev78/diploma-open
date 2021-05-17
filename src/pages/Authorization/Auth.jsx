@@ -82,25 +82,26 @@ export default connect(mapStateToProps)(({ store, dispatch }) => {
   const authorize = () => {
     validate();
     if (login.length > 5 && password.length > 5) {
-      const body = JSON.stringify({
-        username: login,
-        password,
-      });
-      fetch("http://localhost:8080/api/auth/signin", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json;charset=utf-8",
-        },
-        body,
-      }).then(async (response) => {
-        let data = await response.json()
-        if (data.accessToken) {
-          dispatch(signIn("SIGN_IN", data.accessToken, data.username));
-          history.push("/profile");
-        } else {
-          dispatch(signIn("SIGN_IN", ""));
-        }
-      });
+      setTimeout(() => history.push("/profile"), 300);
+      // const body = JSON.stringify({
+      //   username: login,
+      //   password,
+      // });
+      // fetch("http://localhost:8080/api/auth/signin", {
+      //   method: "POST",
+      //   headers: {
+      //     "Content-Type": "application/json;charset=utf-8",
+      //   },
+      //   body,
+      // }).then(async (response) => {
+      //   let data = await response.json()
+      //   if (data.accessToken) {
+      //     dispatch(signIn("SIGN_IN", data.accessToken, data.username));
+      //     history.push("/profile");
+      //   } else {
+      //     dispatch(signIn("SIGN_IN", ""));
+      //   }
+      // });
     }
   };
 

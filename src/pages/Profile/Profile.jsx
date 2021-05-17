@@ -31,7 +31,8 @@ const ProjectBlock = styled.div`
   color: white;
   font-size: 28px;
   font-weight: bold;
-  background-color: #7485be;
+  background-color: ${colors.main};
+  border-radius: 10px;
   cursor: pointer;
 `;
 
@@ -169,7 +170,8 @@ export default connect(mapStateToProps)(({ dispatch, store }) => {
             color: "white",
             width: "100%",
           }}
-          onClick={addProject}
+          // onClick={addProject}
+          onClick={() => setTimeout(() => history.push("/builder"), 300)}
         >
           Создать проект
         </Button>
@@ -188,6 +190,13 @@ export default connect(mapStateToProps)(({ dispatch, store }) => {
             </ProjectBlock>
           );
         })}
+        <ProjectBlock
+          // onClick={() => {
+          //   setCurrentProject(project);
+          // }}
+        >
+          Проект тест
+        </ProjectBlock>
       </ProjectsContainer>
       <AddProjectButton onClick={() => setPopup(true)}>
         Добавить проект
